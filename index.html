@@ -1,5 +1,54 @@
-<html>
-    <head></head>
-    <body></body>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>WeatherApp</title>
+</head>
+    <body>
+        <h1> Weather App </h1>
+
+        <div class="location">
+            <input type="text" class="location-timezone" value="Write a city"></innput>
+            <input type="submit" id="btn" value="Vai"></button>
+            <div class="container-icon">
+                <img class="icon" src="http://openweathermap.org/img/wn/02d@2x.png" width="180" height="180">
+            </div>
+        </div>
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree">--</h2>
+                <span>Fahrenait</span>
+            </div> 
+            <div class="temperature-description">Description of weather</div>
+        </div>
+        <div class="info">
+            <div class="table-dates">
+                <div class="date-section">
+                    <h3> Temperatura minima </h3>
+                    <div class="temperature-min">--</div>
+                </div>
+                <div class="date-section">
+                    <h3> Temperatura massima </h3>
+                    <div class="temperature-max">--</div>
+                </div>
+                <div class="date-section">
+                    <h3> Umidità </h3>
+                    <div class="humidity">--</div>
+                </div>
+                <div class="date-section">
+                    <h3> Wind Speed </h3>
+                    <div class="wind">--</div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="app.js"></script>
+    </body>
 </html>
 
