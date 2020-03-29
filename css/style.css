@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%); 
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.location, 
+.temperature,
+.info {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location-timezone {
+    background-color: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #ccc;
+    font-family: 'poppins', sans-serif;
+    border-bottom: solid 2px #ccc;
+}
+#btn {
+    background: white;
+    width: 15%;
+    height: 20%;
+    border-radius: 20px;
+    color: #585e92;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.container-icon {
+    width: 180px;
+    height: 180px;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2 {
+    font-size:40px;  
+}
+.table-dates {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.table-dates h3 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.date-section {
+    border: solid 1.5px white;
+    border-radius: 15px;
+    height: 50%;
+    margin: 20px;
+    padding: 15px;
+}
