@@ -82,6 +82,7 @@ window.addEventListener('load', ()=> {
                 humidity.textContent = data.main.humidity;
                 wind.textContent = data.wind.speed;
                 pressure.textContent = data.main.pressure;
+                temperatureSpan.textContent = "Kelvin";
                 let celsius = Math.round(data.main.temp - 273);
                 const iconId = data.weather[0].icon;    
                 setIcons(iconId);
